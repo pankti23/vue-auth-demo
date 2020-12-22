@@ -1,0 +1,43 @@
+// custom.scss
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #000;
+}
+
+.form-control.is-invalid, .form-control.is-valid {
+    background-image: none !important;
+}
+
+.main-sec {
+    background-color: #f2f2f2; 
+    .container {
+        padding: 80px;
+    }   
+}
+
+.header-sec {
+    background-color: #a18cc1;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-sec {
+    background-color: #6e7070;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
